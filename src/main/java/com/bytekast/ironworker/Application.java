@@ -30,7 +30,7 @@ public class Application implements CommandLineRunner {
     options.addOption("id", true, ""); // worker id
     options.addOption("d", true, "");  // temp writable directory
     options.addOption("e", true, "");  // environment
-    options.addOption("payload", true, ""); // payload
+    options.addOption("payload", true, ""); // payload file url
 
     CommandLineParser parser = new BasicParser();
     try {
