@@ -1,0 +1,4 @@
+# define the runtime language
+runtime "java"
+# exec is the file that will be executed:
+exec "target/demo-0.0.1-SNAPSHOT.jar"
