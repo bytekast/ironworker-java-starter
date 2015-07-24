@@ -57,6 +57,24 @@
           <artifactId>spring-boot-maven-plugin</artifactId>
         </plugin>
       </plugins>
+      <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-webdav</artifactId>
+        <version>1.0-beta-2</version>
+      </extension>
+    </extensions>
     </build>
+
+    <distributionManagement>
+      <repository>
+        <uniqueVersion>false</uniqueVersion>
+        <id>bytekast-snapshot</id>
+        <url>dav:https://repository-bytekast.forge.cloudbees.com/snapshot/</url>
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+      </repository>
+    </distributionManagement>
 
 </project>
