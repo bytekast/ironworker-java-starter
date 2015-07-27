@@ -1,0 +1,9 @@
+language: java
+jdk:
+	- oraclejdk7
+
+after_success:
+  - mvn package
+
+env:
+- secure: jB8UGw8G8aM6vXfiFtNJ2C2LuCExS7AtMiCvknzHo/XtUJ4KwBdcRYoKxQ9Tsr+tjabbIQ1gRh3nXMP8OJNDDVxL0ZBNzFeEceY9sK+LlUzAG4thQupifCYOn70zJZrOnvYEIqKCL5w+fhdR6S8HeU2YNbSa4rmjXMSH1dog56XyeteffRjmQzo5ZVCp3hnBF8n/Ot/lXl4Y3zRuoynn579+70TrVrs2DKs1K5mE+3Xuc/dO7Uo5Zux7jVgLhr5HCCkamsCnIHp0virX1ZZwenUP8/S8fX0KWN6KAb+ztpRm6cjKzjK2t1kFab6KQd18za+JDm9Neg/6fb783XUivw==
